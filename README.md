@@ -15,12 +15,15 @@ DC 모터는 상대적으로 모델 구현이 간단하고 구동이 쉬워 모�
 
 ## Plecs 회로 구성
 ![DWI](https://user-images.githubusercontent.com/125186303/222142383-0c5303de-87a7-488b-91a4-75bc38dc2c5d.jpg)
+
 Amature, Field basic DC motor
 
 ![DSP](https://user-images.githubusercontent.com/125186303/222142488-0f225346-25c3-4866-b154-26bef193f21e.jpg)
+
 DLL input, output section
 
 ![CBPWM](https://user-images.githubusercontent.com/125186303/222142544-26f8228f-d370-4870-a313-f7c4fd5197b8.jpg)
+
 Carrier Based PWM (Triangular wave)
 
 ## 제어기 코드

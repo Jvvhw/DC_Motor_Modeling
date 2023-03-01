@@ -3,12 +3,12 @@ DLL code for running Plecs simulation. Including speed &amp; current controller 
 
 # DC Motor Modeling
 ## 개요
-DC 모터는 상대적으로 모델 구현이 간단하고 구동이 쉬워 모터 제어의 입문으로 적합
-본래 시뮬레이션 자체는 모두 Plecs S/W로 가능하다
-실제로는 모터와 인버터는 구현이 되어 있으므로, 제어기능의 코드를 MCU에 올리는것이 중요
-
-이번 프로젝트에서는 Cascaded PI controller와 전압지령 오버슈팅 방지를 위한 Anti wind-up을 사용하여
-모터가 시뮬레이션 상으로 제어되는지 확인하였다.
+DC 모터는 상대적으로 모델 구현이 간단하고 구동이 쉬워 모터 제어의 입문으로 적합\n
+본래 시뮬레이션 자체는 모두 Plecs S/W로 가능하다\n
+실제로는 모터와 인버터는 구현이 되어 있으므로, 제어기능의 코드를 MCU에 올리는것이 중요\n
+\n
+이번 프로젝트에서는 Cascaded PI controller와 전압지령 오버슈팅 방지를 위한 Anti wind-up을 사용하여\n
+모터가 시뮬레이션 상으로 제어되는지 확인하였다.\n
 
 ## Plecs 회로 구성
 ![DWI](https://user-images.githubusercontent.com/125186303/222142383-0c5303de-87a7-488b-91a4-75bc38dc2c5d.jpg)

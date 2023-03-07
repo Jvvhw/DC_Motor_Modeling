@@ -29,6 +29,12 @@ DLL input, output section
 
 Carrier Based PWM (Triangular wave)
 
+## Result
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/125186303/223322657-e8a8632c-755f-4f89-aa3f-d37f2fd46a3f.gif)
+
+Field INV turns on first, and amature INV turns on after 0.1s
+
+
 ## Controller Code review (Partial)
 ```
 if (INVf_on) { //인버터 전원이 켜져있을때 동작

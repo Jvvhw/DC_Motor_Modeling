@@ -36,7 +36,7 @@ Field INV turns on first, and amature INV turns on after 0.1s
 
 
 ## Controller Code review (Partial)
-```
+```c
 if (INVf_on) { //인버터 전원이 켜져있을때 동작
 		If_err = If_ref - If; //오차 입력
 
